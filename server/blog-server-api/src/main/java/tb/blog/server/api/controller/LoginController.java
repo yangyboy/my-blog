@@ -48,4 +48,10 @@ public class LoginController {
         String token = JwtTokenUtils.createToken(user.getId().toString(), false);
         return R.ok(JwtTokenUtils.TOKEN_PREFIX + token);
     }
+
+    public static void main(String[] args) {
+        BCryptUtil bCryptUtil = new BCryptUtil();
+        String password = "123456";
+        System.out.println(bCryptUtil.encoder(password));
+    }
 }

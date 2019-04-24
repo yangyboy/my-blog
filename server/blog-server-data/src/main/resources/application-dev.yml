@@ -3,9 +3,9 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.cj.jdbc.Driver
     druid:
-      url: jdbc:mysql://127.0.0.1:3306/myblog?allowMultiQueries=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8&tinyInt1isBit=false
+      url: jdbc:mysql://192.168.1.220:3306/myblog?allowMultiQueries=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8&tinyInt1isBit=false
       username: root
-      password: 123456
+      password: karakal
       initial-size: 10
       max-active: 100
       min-idle: 10
@@ -21,8 +21,8 @@ spring:
       stat-view-servlet:
         enabled: true
         url-pattern: /druid/*
-        #login-username: admin
-        #login-password: admin
+        login-username: admin
+        login-password: admin
       filter:
         stat:
           log-slow-sql: true

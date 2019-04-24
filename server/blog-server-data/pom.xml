@@ -27,6 +27,28 @@
                     <verbose>true</verbose>
                     <overwrite>true</overwrite>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>${mysql.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.alibaba</groupId>
+                        <artifactId>druid-spring-boot-starter</artifactId>
+                        <version>${druid.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.baomidou</groupId>
+                        <artifactId>mybatis-plus</artifactId>
+                        <version>${mybatisplus.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.baomidou</groupId>
+                        <artifactId>mybatis-plus-boot-starter</artifactId>
+                        <version>${mybatisplus.spring.boot.version}</version>
+                    </dependency>
+                </dependencies>
                 <executions>
                     <execution>
                         <id>Generate MyBatis Artifacts</id>

@@ -13,3 +13,8 @@ spring:
       max-file-size: 100MB
       max-request-size: 100MB
       enabled: true
+qiniu:
+  accessKey: nS-F8PFet2_ZjEJnS1OJE4O8LsmEZifTgCz0fhen
+  secretKey: cGBXZRe5oK5bL5Sg5ZCAalaDhQhjJeGjb34qG3eP
+  bucket: myblog
+  prefix: file
