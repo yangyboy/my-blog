@@ -7,11 +7,11 @@
         src="~/static/images/name.png">
     </div>
     <div class="about-content">
-      <p>网名：Tang</p>
+      <p>网名：mocc</p>
 
-      <p>职业：全栈工程师</p>
+      <p>职业：Java开发</p>
 
-      <p>邮箱：641923573@qq.com</p>
+      <p>邮箱：yangyboy@163.com</p>
     </div>
   </el-card>
 </template>

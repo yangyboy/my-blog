@@ -6,8 +6,8 @@
       <el-col
         :span="24"
         class="footer">
-        <div>COPYRIGHT 2019 TANG. ALL RIGHTS RESERVED.</div>
-        <div><a href="http://www.miitbeian.gov.cn/">皖ICP备19003906号</a></div>
+        <div>COPYRIGHT 2019 YANG. ALL RIGHTS RESERVED.</div>
+        <div><a href="http://www.miitbeian.gov.cn/">川ICP备19003906号</a></div>
       </el-col>
     </el-row>
   </div>

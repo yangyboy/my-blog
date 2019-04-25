@@ -7,6 +7,8 @@ import com.qiniu.storage.UploadManager;
 import com.qiniu.storage.model.FileInfo;
 import com.qiniu.util.Auth;
 import com.qiniu.util.StringMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,7 +18,6 @@ import tb.blog.server.service.IQiniuService;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -25,6 +26,7 @@ import java.util.stream.Stream;
  */
 @Service
 public class QiniuServiceImpl implements IQiniuService, InitializingBean {
+    private Logger logger = LoggerFactory.getLogger(QiniuServiceImpl.class);
     private final UploadManager uploadManager;
 
     private final BucketManager bucketManager;

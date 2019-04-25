@@ -20,14 +20,14 @@
           <p class="about_text">Github 地址：
             <a
               href="https://github.com/tom6886/my-blog"
-              target="_blank">https://github.com/tom6886/my-blog</a>
+              target="_blank">https://github.com/yangyboy/my-blog</a>
           </p>
           <h1>About Me</h1>
           <hr class="line">
           <p class="about_title">个人简介</p>
           <ul>
-            <li>姓名：汤波</li>
-            <li>英文名：Tang</li>
+            <li>姓名：杨洋</li>
+            <li>英文名：mocc</li>
             <li>爱好：写代码</li>
           </ul>
           <p class="about_title">技能</p>
@@ -37,7 +37,7 @@
             <li>后端：Spring Boot、Spring Cloud、C#、.net core</li>
           </ul>
           <p class="about_title">联系方式</p>
-          <p class="about_text">邮箱：641923573@qq.com</p>
+          <p class="about_text">邮箱：yangyboy@163.com</p>
         </el-card>
       </el-col>
     </el-row>

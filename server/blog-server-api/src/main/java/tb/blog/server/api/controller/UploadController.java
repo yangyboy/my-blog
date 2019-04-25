@@ -5,10 +5,15 @@ import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.qiniu.http.Response;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import tb.blog.server.api.util.R;
 import tb.blog.server.config.util.UserContext;
@@ -25,6 +30,9 @@ import java.util.Date;
 @RestController
 @RequestMapping("/upload")
 public class UploadController {
+
+    private Logger logger = LoggerFactory.getLogger(UploadController.class);
+
     @Value("${qiniu.prefix}")
     private String prefix;
 
@@ -73,6 +81,7 @@ public class UploadController {
 
             return success ? R.ok(yunFilePath) : R.error("保存文件信息失败");
         } catch (IOException e) {
+            logger.error("文件上传失败",e);
             return R.error("文件上传失败");
         }
     }
