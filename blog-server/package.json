@@ -6,6 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "8888"
+    }
+  },
   "dependencies": {
     "@tinymce/tinymce-vue": "^1.1.0",
     "axios": "^0.18.0",

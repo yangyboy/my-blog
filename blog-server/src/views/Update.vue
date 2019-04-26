@@ -40,7 +40,7 @@
                             </Radio>
                             <Radio label="2">
                                 <Icon class="iconfont icon-nodejs"></Icon>
-                                <span class="list_menu">浅尝辄止</span>
+                                <span class="list_menu">生活点滴</span>
                             </Radio>
                         </RadioGroup>
                     </Card>

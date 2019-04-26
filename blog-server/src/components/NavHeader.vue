@@ -5,7 +5,7 @@
                 <Col span="23">
                     <div class="nav-left">
                         <div class="logo">
-                            Tang's Blog
+                            Mocc's Blog
                         </div>
                     </div>
                     <div class="nav-right">
@@ -13,7 +13,7 @@
                             <Row align="middle" class="user-dropdown-innercon" justify="end" type="flex">
                                 <Dropdown @on-click="handleClickUserDropdown" transfer trigger="click">
                                     <a href="javascript:void(0)">
-                                        <span class="main-user-name">Tang</span>
+                                        <span class="main-user-name">Mocc</span>
                                         <Icon type="md-arrow-dropdown"></Icon>
                                     </a>
                                     <DropdownMenu slot="list">

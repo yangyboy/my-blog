@@ -1,7 +1,7 @@
 <template>
     <Row justify="center" type="flex">
         <Col span="24">
-            <h2 style="margin-bottom:0.5%;">浅尝辄止:</h2>
+            <h2 style="margin-bottom:0.5%;">生活点滴:</h2>
             <Table :columns="columns" :data="front" border></Table>
             <div class="pagination" v-show="frontPager.total !== 0">
                 <Page :current="frontPager.current" :page-size="frontPager.size" :total="frontPager.total"
