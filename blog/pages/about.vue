@@ -17,11 +17,11 @@
           <p class="about_title">博客后端:</p>
           <p class="about_text">UI层：使用 <b>Vue + Vue-Router + Vue-cli + axios + Less + IView</b></p>
           <p class="about_text">服务层：使用 <b>Spring Boot + Spring Security + JWT + Mysql</b></p>
-          <p class="about_text">Github 地址：
-            <a
-              href="https://github.com/tom6886/my-blog"
-              target="_blank">https://github.com/yangyboy/my-blog</a>
-          </p>
+          <!--          <p class="about_text">Github 地址：-->
+          <!--            <a-->
+          <!--              href="https://github.com/tom6886/my-blog"-->
+          <!--              target="_blank">https://github.com/yangyboy/my-blog</a>-->
+          <!--          </p>-->
           <h1>About Me</h1>
           <hr class="line">
           <p class="about_title">个人简介</p>
