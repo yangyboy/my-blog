@@ -4,10 +4,19 @@ server:
     max-threads: 1000
     min-spare-threads: 30
   port: 9099
-
+logging:
+  file:
+    max-size: 50MB
+  level:
+    root: info
+    web: info
+  path: logs
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] [%c:%M:%L] [%p] - %m%n"
+logging.file: /home/${logging.path}/blog.log
 spring:
   profiles:
-    active: dev
+    active: prod
   servlet:
     multipart:
       max-file-size: 100MB

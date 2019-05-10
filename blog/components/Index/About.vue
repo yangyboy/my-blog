@@ -3,7 +3,7 @@
     <div class="about-title">about Me</div>
     <div class="about-name">
       <img
-        alt="Tang"
+        alt="mocc"
         src="~/static/images/name.png">
     </div>
     <div class="about-content">
