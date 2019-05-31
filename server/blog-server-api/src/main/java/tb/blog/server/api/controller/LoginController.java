@@ -51,7 +51,7 @@ public class LoginController {
 
     public static void main(String[] args) {
         BCryptUtil bCryptUtil = new BCryptUtil();
-        String password = "123456";
+        String password = "1qaz!QAZ";
         System.out.println(bCryptUtil.encoder(password));
     }
 }

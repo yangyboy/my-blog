@@ -5,7 +5,7 @@ import {router} from "../router/index";
 // axios 配置
 axios.defaults.timeout = 6000;
 axios.defaults.headers.post["Content-Type"] = "application/json;charset=UTF-8";
-axios.defaults.baseURL = "http://127.0.0.1:9099/serverapi";
+axios.defaults.baseURL = "https://www.y1y1.com.cn/serverapi";
 
 axios.interceptors.request.use(
     config => {
